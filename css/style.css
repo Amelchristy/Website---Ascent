@@ -223,8 +223,11 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
     z-index: 1;
     background: rgb(249, 246, 246);
     width: 17rem;
-    height: 12rem;
-    padding-top: 3.5vmin;
+    height: 18rem;
+    padding-top: 2.5vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    padding-bottom: 2vmin;
     margin: 1rem;
     border-radius: .5em;
     box-shadow: 1px 2px 50px 0px rgb(86, 92, 0);
