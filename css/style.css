@@ -339,16 +339,17 @@ background: rgba(220, 241, 208, 0.1)
     padding: 1cm;
 }
 
-.section-1Campaign .row .col-md-6 .BajaBlastAd img{
-    width: 350px;
-    height: 1000px;
-    padding: 0.5cm;
-    margin-top:4cm;
-}
-
-.section-1Campaign .row .col-md-6 .BajaBlastAd .ZionWilliamson.png{
+.section-1Campaign .row .col-md-4 .Zion img{
     width: 500px;
     height: 1000px;
     padding: 0.5cm;
     margin-top:4cm;
 }
+.section-1Campaign .row .col-md-2 .BajaBlastAd img{
+    width: 300px;
+    height: 1000px;
+    padding: 0.5cm;
+    margin-top:8cm;
+}
+
+.section-1Campaign {background:var(--bggradient)}
