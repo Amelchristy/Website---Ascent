@@ -156,7 +156,7 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
     padding: 2cm;
 }
 
-.section-1 {
+.section-1 {height:80vmin;
     background:#002600;
     background: var(--bggradient);
     font-family:var(--Racing-font);
@@ -357,7 +357,7 @@ background: rgba(220, 241, 208, 0.1)
 .section-1Campaign {background:var(--bggradient)}
 
 .section-4{
-    height:90vmin;
+    height:110vmin;
     margin-top:15 vmin;
     background:var(--bggradient);
 }
