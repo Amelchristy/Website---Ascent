@@ -333,23 +333,23 @@ background: rgba(220, 241, 208, 0.1)
     font-family: --Teko;
 }
 
-.section-1Campaign .row .col-md-6 .DUNK img{
+.section-1Campaign .row .col-md-5 .DUNK img{
     width: 800px;
     height: 1000px;
     padding: 1cm;
 }
 
-.section-1Campaign .row .col-md-4 .Zion img{
-    width: 500px;
+.section-1Campaign .row .col-md-5 .Zion img{
+    width: 700px;
     height: 1000px;
-    padding: 0.5cm;
-    margin-top:4cm;
+    padding: 2cm;
+    margin-top:2cm;
 }
 .section-1Campaign .row .col-md-2 .BajaBlastAd img{
     width: 300px;
-    height: 1000px;
+    height: 825px;
     padding: 0.5cm;
-    margin-top:8cm;
+    margin-top:6cm;
 }
 
 .section-1Campaign {background:var(--bggradient)}
