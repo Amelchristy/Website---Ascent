@@ -404,10 +404,13 @@ footer .input-group{color:#678803;}
 
 /*Product*/
 header .ProductH5 h5{font-family:var(--Bangers);
-color:#9ad906;
+color:#b8d900;
 margin-top:2cm;
 padding: 0;
-font-size:50px;
+font-size:60px;
 font-style: underline;}
 
-header .ProductH5{background:var(--bggradient);}
+header .ProductH5{background:black;}
+
+.section-1Product {background:var(--bggradient);
+}
