@@ -408,9 +408,64 @@ color:#b8d900;
 margin-top:2cm;
 padding: 0;
 font-size:60px;
-font-style: underline;}
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(173, 215, 2);
+    border: none;
+}
 
 header .ProductH5{background:black;}
 
 .section-1Product {background:var(--bggradient);
 }
+
+.section-1Product h1{font-size:50px;
+color:#b8d900;
+padding:10px;
+font-family:var(--Bangers);
+margin-left: 6vmin;
+}
+
+.section-1Product h2{font-size:35px;
+    color:#f4f8df;
+    padding:5px;
+    font-family:var(--Bangers);
+    margin-left: 6vmin;
+    text-shadow:1px 1px 2px #fa7d00;
+    }
+
+.section-1Product p{font-size:25px;
+        color:#ffffff;
+        font-family:var(--Teko);
+        margin-left: 10vmin;
+        }
+        
+.section-1Place {background:var(--bggradient);
+}
+.section-1Place h1{font-family:var(--Bangers);
+    font-size:60px;
+    color:#b8d900;
+}
+
+.section-1Place .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .section-1Place .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .section-1Place .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 200px;
+    height:300px;
+    padding:10px
+  }
+    
