@@ -543,4 +543,8 @@ box-shadow: #ffffff;}
     
 .section-1Response{background:var(--bggradient);
     height:80vmin;}
-        
+
+
+.card-img .card-img-top{
+    height:150px;
+}
