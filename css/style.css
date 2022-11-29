@@ -71,10 +71,12 @@
 
     .nav-item{
         padding: 0.9em;
+        
     }
 
     header .navbar-brand{
         padding-left: 8rem;
+        position: fixed;
         }
 
     header .nav-link:hover{
@@ -343,7 +345,7 @@ background: rgba(220, 241, 208, 0.1)
     width: 750px;
     height: 1000px;
     padding: 2cm;
-    margin-top:2cm;
+    margin-top:1cm;
 }
 .section-1Campaign .row .col-md-2 .BajaBlastAd img{
     width: 300px;
@@ -353,3 +355,48 @@ background: rgba(220, 241, 208, 0.1)
 }
 
 .section-1Campaign {background:var(--bggradient)}
+
+.section-4{
+    height:80vmin;
+    margin-top:15 vmin;
+    background:var(--bggradient);
+}
+
+.section-4 h3{
+    font-family:var(--Bangers);
+    color:#1e2a01;
+    font-size:20px;
+}
+
+
+.section-4 p{
+    font-family:var(--Bangers);
+    color:#f7f8f5;
+    font-size:12px;
+}
+
+.section-4 .container >h1{
+    font-family:var(--Bangers);
+    color:#678803;
+    font: 50px;
+}
+
+footer {background: var(--bggradient);
+    background:url('https://media.giphy.com/media/PCybIpOaZUZOpDGcAT/giphy-downsized-large.gif');
+}
+
+footer h2 {font-family:var(--Bangers);
+color:#9ad906;
+font-size: 50px;
+}
+
+footer p{font-family: var(--Teko);
+    color:#070707;
+}
+
+footer h4{font-family:var(--Bangers);
+color:#6e9c0b;
+font-size:50px;
+}
+
+footer .input-group{color:#678803;}
