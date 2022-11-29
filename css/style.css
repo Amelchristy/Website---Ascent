@@ -469,3 +469,41 @@ margin-left: 6vmin;
     padding:10px
   }
     
+
+  .section-1Price h1{font-family:var(--Bangers);
+    font-size:60px;
+    color:#b8d900;
+}
+
+.section-1Price p{font-size:25px;
+    color:#ffffff;
+    font-family:var(--Teko);
+    margin-left: 10vmin;
+    }
+    
+    .section-1Price {background:var(--bggradient);}
+        
+
+.section-1Price p img{ padding:1vmin;
+    height: 300px;
+width:200px;}
+
+.section-1Promotion h1{font-family:var(--Bangers);
+    font-size:60px;
+    color:#b8d900;
+}
+
+.section-1Promotion h2{font-size:40px;
+    color:#ffffff;
+    font-family:var(--Teko);
+    margin-left: 10vmin;text-shadow:1px 1px 2px #fa7d00;
+    }
+    
+    .section-1Promotion{background:var(--bggradient);}
+        
+
+.section-1Promotion h2 img{ padding:1vmin;
+    height: 300px;
+width:500px;
+}
+
