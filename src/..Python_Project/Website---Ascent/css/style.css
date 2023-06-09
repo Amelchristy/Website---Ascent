@@ -1,0 +1,556 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Racing+Sans+One&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{box-sizing: border-box;}
+
+header,
+section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Racing-font:"Racing Sans One", italic;
+    --Roboto:"Roboto", italic;
+    --Bangers:"Bangers", bold;
+    --Teko:"Teko", italic;
+    --gray:#6D6D64;
+    --bggradient: linear-gradient(
+        to bottom,
+        #ecf0f2, #002e4f);
+    --bggradients: linear-gradient(to bottom,#e7f0f2, #071e7c);
+    --light-gray: #BBBBBB);
+}
+.collapse a{color:rgb(3, 3, 3);}
+
+
+header a{
+    font-family: var(--Bangers);
+    font-size=12px;
+    color:rgb(230, 231, 228)
+}
+header {
+    font-family: var(--Racing-font, cursive);
+    font-size=12px;
+    color:rgb(3, 3, 3)
+}
+
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background: rgb(237, 237, 237)
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px (0,0,0,0);
+    z-index:1 ;
+}
+#e0f520
+.dropdown-content a{
+    color: rgb(251, 10, 10);
+    padding: 12px 16px;
+    text-decoration: none;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+
+.dropdown a{color:#080807;}
+.dropdown-content a:hover{
+    background:rgb(243, 247, 240)
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+header.nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+.nav-item{
+    padding: 0.9em;
+    
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+    position: fixed;
+    }
+
+header .nav-link:hover{
+    color:white;
+    }
+
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+    }
+
+header .row .col-md-7{
+    padding: 20vmin 5vmin;
+    padding-bottom: 35vmin;
+    }
+
+header .row .col-md-5 img{
+    width= 90%;
+    }
+
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    font-size: 18px;
+    }
+
+header .container .col-md-7 h1{
+    font-size: 7.5vmin;
+    font-weight: bold;
+    padding: 0;
+    font-size: 80px;
+    margin: 10px 0;
+    color:#653600;
+    }
+
+
+
+header .container .col-md-7 p{
+padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+border-radius: 30px;
+font-weight: bold;
+}
+
+header {background: url('../assets/stock.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.logo{
+width: 35px;
+height: 35px;
+top: 5px;
+left: 5px;
+margin-left: 0;
+}
+
+
+###Basketball###
+https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
+
+/*section 1*/
+
+.section-1{
+padding: 10vmin 5;
+
+}
+
+.section-1 .row .col-md-6 .skate img{
+opacity: 0.5;
+width: 800px;
+height: 600px;
+padding: 2cm;
+}
+
+.section-1 {height:80vmin;
+background:#002600;
+background: var(--bggradient);
+font-family:var(--Racing-font);
+}
+
+.section-1 h1{
+color:#9ad906;
+font-family:var(--Bangers);
+font-size: 55px;
+}
+
+.section-1 .col-md-6 .X{
+padding-top: 35px;
+  }
+.section-1 .col-md-6 .X p{
+    color:rgb(243, 250, 239);
+      }
+
+.section-1 .row .col-md-6 .panel{
+position: absolute;
+top: 2vmin;
+left: -15vmin;
+background: var(--bggradient);
+border-radius: 10px;
+text-align: left;
+padding: 13vmin 5vmin 20vmin 10vmin;
+opacity: 0.65;
+}
+.section-1 .row .col-md-6 .panel p{
+padding: 0.4em 0;
+font-size: 1.5em;
+font-family: var(--Teko, italic)
+}
+
+/*section 2*/
+.cover{
+width: 100%;
+height: 55vmin;
+background: url('../assets/gym.jpeg');
+background-size: 100%;
+position: relative;
+}
+
+.cover .content{
+background: rgba(0,0,0,0.7);
+height:100%;
+width: 100%;
+padding-top: 19vmin;
+}
+.cover .content >h1{
+font-family:var(--Bangers);
+font-size: 6vmin;
+color: #e5e5e5
+}
+
+.cover .content>p{
+font-family:var(--Teko);
+font-size:2vmin;
+color:#e5e5e5;
+}
+
+.numbers{background-color: #000000;}
+
+.numbers .rect{
+position: relative;
+z-index: 1;
+background: rgb(249, 246, 246);
+width: 17rem;
+height: 18rem;
+padding-top: 2.5vmin;
+padding-left: 1vmin;
+padding-right: 1vmin;
+padding-bottom: 2vmin;
+margin: 1rem;
+border-radius: .5em;
+box-shadow: 1px 2px 50px 0px rgb(86, 92, 0);
+}
+
+.numbers{
+margin-top: -15vmin;  
+}
+.numbers .rect h1{
+font-family:var(--Bangers);
+color: black;
+font-size:2rem;
+}
+.numbers .rect p{
+font-family:var(--Teko);
+color: black;
+font-size: 1.2rem;
+}
+
+.purchase {
+background:var(--bggradient);
+}
+.purchase >h1{
+font-family:var(--Bangers);
+padding-top: 15vmin;
+padding-bottom: 0.1em;
+color:#9ad906;
+font-size: 6vmin;
+}
+
+.purchase >p{
+color:whitesmoke;
+font-size: 3vmin;
+padding-bottom: 10vmin;
+font-family:var(--Teko)
+}
+
+.purchase .cards .card{
+width:22rem;
+margin: 3vmin;
+}
+
+.cards div{ padding 0;
+margin: 0;}
+
+.cards .title{
+background: rgba(220, 241, 208, 0.1);
+padding: 1.4rem 2.5rem;
+font-size:2vmin;
+}
+
+.card .card-text{
+padding: 2.5rem 3rem;
+color: var(--light-gray);
+}
+
+.card-body .pricing>h1{
+font-size:6vmin;
+padding: 1em 0.5em;
+}
+
+.card-body .pricing{border-top: 170px;
+border-left: 170px;
+background: rgba(220, 241, 208, 0.1)
+}
+
+.section-3{
+height:70vmin;
+margin-top:15 vmin;
+background:var(--bggradient);
+}
+
+.section-3 .col-md-12>h1{
+padding: 2em 00.5em 0;
+color:#9ad906; 
+font-size: 6vmin;
+font-family: var(--Bangers);
+}
+
+.section-3 .col-md-12>p{
+padding:0.4em ;
+padding-bottom:2em;
+color:whitesmoke;
+font-size: 3vmin;
+font-family:var(--Teko);
+}
+
+.desktop{
+background:white;
+display:inline-block;
+border-radius:3em;
+padding: 2vmin 4.5vmin;
+margin: 1em;
+}
+
+.desktop h3{
+font-size:3vmin;
+font-family:var(--Bangers)
+}
+
+.desktop p{
+font-size: 2vmin;
+font-family: --Teko;
+}
+
+.section-1Campaign .row .col-md-5 .DUNK img{
+width: 800px;
+height: 1000px;
+padding: 1cm;
+}
+
+.section-1Campaign .row .col-md-5 .Zion img{
+width: 750px;
+height: 1000px;
+padding: 2cm;
+margin-top:1cm;
+}
+.section-1Campaign .row .col-md-2 .BajaBlastAd img{
+width: 300px;
+height: 825px;
+padding: 0.5cm;
+margin-top:6cm;
+}
+
+.section-1Campaign {background:var(--bggradient)}
+
+.section-4{
+height:110vmin;
+margin-top:15 vmin;
+background:var(--bggradient);
+}
+
+.section-4 h3{
+font-family:var(--Bangers);
+color:#1e2a01;
+font-size:20px;
+}
+
+
+.section-4 p{
+font-family:var(--Bangers);
+color:#f7f8f5;
+font-size:12px;
+}
+
+.section-4 .container >h1{
+font-family:var(--Bangers);
+color:#9ad906;
+font: 50px;
+}
+
+footer {background: var(--bggradient);
+background:url('https://media.giphy.com/media/PCybIpOaZUZOpDGcAT/giphy-downsized-large.gif');
+}
+
+footer h2 {font-family:var(--Bangers);
+color:#9ad906;
+font-size: 50px;
+}
+
+footer p{font-family: var(--Teko);
+color:#070707;
+}
+
+footer h4{font-family:var(--Bangers);
+color:#9ad906;
+font-size:50px;
+}
+
+footer .input-group{color:#678803;}
+
+
+/*Product*/
+header .ProductH5 h5{font-family:var(--Bangers);
+color:#b8d900;
+margin-top:2cm;
+padding: 0;
+font-size:60px;
+}
+
+hr{
+height: 1px;
+background-color: rgb(173, 215, 2);
+border: none;
+}
+
+header .ProductH5{background:black;}
+
+.section-1Product {background:var(--bggradient);
+}
+
+.section-1Product h1{font-size:50px;
+color:#b8d900;
+padding:10px;
+font-family:var(--Bangers);
+margin-left: 6vmin;
+}
+
+.section-1Product h2{font-size:35px;
+color:#f4f8df;
+padding:5px;
+font-family:var(--Bangers);
+margin-left: 6vmin;
+text-shadow:1px 1px 2px #fa7d00;
+}
+
+.section-1Product p{font-size:25px;
+    color:#ffffff;
+    font-family:var(--Teko);
+    margin-left: 10vmin;
+    }
+    
+.section-1Place {background:var(--bggradient);
+height:80vmin;
+}
+.section-1Place h1{font-family:var(--Bangers);
+font-size:60px;
+color:#b8d900;
+}
+
+.section-1Place .row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.section-1Place .column {
+flex: 50%;
+padding: 0 4px;
+}
+
+.section-1Place .column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 200px;
+height:300px;
+padding:10px
+}
+
+
+.section-1Price h1{font-family:var(--Bangers);
+font-size:60px;
+color:#b8d900;
+}
+
+.section-1Price p{font-size:25px;
+color:#ffffff;
+font-family:var(--Teko);
+margin-left: 10vmin;
+}
+
+.section-1Price {background:var(--bggradient);}
+    
+
+.section-1Price p img{ padding:1vmin;
+height: 300px;
+width:200px;}
+
+.section-1Promotion h1{font-family:var(--Bangers);
+font-size:60px;
+color:#b8d900;
+}
+
+.section-1Promotion h2{font-size:40px;
+color:#ffffff;
+font-family:var(--Teko);
+margin-left: 10vmin;text-shadow:1px 1px 2px #fa7d00;
+}
+
+.section-1Promotion{background:var(--bggradient);}
+    
+
+.section-1Promotion h2 img{ padding:1vmin;
+height: 300px;
+width:500px;
+}
+
+.section-1Budget h1{font-family:var(--Bangers);
+font-size:60px;
+color:#b8d900;
+}
+
+.section-1Budget h2{font-size:40px;
+color:#ffffff;
+font-family:var(--Bangers);
+margin-left: 10vmin;text-shadow:1px 1px 2px #fa7d00;
+}
+
+.section-1Budget{background:var(--bggradient);
+height:80vmin;}
+    
+
+.section-1Budget p img{
+height: 300px;
+width: 800px;
+margin-left:25vmin;
+margin-top: ;
+box-shadow: #ffffff;}
+
+.section-1Response h1{font-family:var(--Bangers);
+font-size:60px;
+color:#b8d900;
+}
+
+.section-1Response h2{font-size:40px;
+color:#ffffff;
+font-family:var(--Bangers);
+margin-left: 10vmin;text-shadow:1px 1px 2px #fa7d00;
+}
+
+.section-1Response{background:var(--bggradient);
+height:80vmin;}
+
+
+.card-img .card-img-top{
+height:150px;
+}
+
+.image-wrapper {
+    background-color: rgba(255, 255, 255, 0.5); /* adjust the last value (alpha) to change transparency */
+    padding: 10px; /* add some space around the image */
+    margin-top: 200px; /* adjust this value to position the image lower */
+    border-radius: 15px;
+    display: inline-block;
+}

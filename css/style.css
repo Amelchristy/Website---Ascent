@@ -2,8 +2,9 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Racing+Sans+One&family=Roboto:ital@0;1&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
-    
-    *{box-sizing: border-box;}
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    {box-sizing: border-box;}
 
     header,
     section{
@@ -11,24 +12,25 @@
     }
 
     :root{
+        --Arsenal: "Arsenal", bold;
         --Racing-font:"Racing Sans One", italic;
         --Roboto:"Roboto", italic;
         --Bangers:"Bangers", bold;
         --Teko:"Teko", italic;
-        --gray:#6D6D64;
+        --gray:#d6d6d6b4;
         --bggradient: linear-gradient(
             to bottom,
-            #000000, #151800);
-        --bggradients: linear-gradient(to bottom,#000000, #2a3500);
+            #fefefe, #021927);
+        --bggradients: linear-gradient(to bottom,#ebedeedb, #2a3500);
         --light-gray: #BBBBBB);
     }
     header a{
-        font-family: var(--Bangers);
+        font-family: var(--Arsenal);
         font-size=12px;
         color:rgb(230, 231, 228)
     }
     header {
-        font-family: var(--Racing-font, cursive);
+        font-family: var(--Arsenal);
         font-size=12px;
         color:rgb(237, 238, 235)
     }
@@ -103,6 +105,7 @@
         }
 
     header .container .col-md-7 h1{
+        font: --Arsenal;
         font-size: 7.5vmin;
         font-weight: bold;
         padding: 0;
@@ -159,12 +162,12 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
 .section-1 {height:80vmin;
     background:#002600;
     background: var(--bggradient);
-    font-family:var(--Racing-font);
+    font-family:var(--Arsenal);
 }
 
 .section-1 h1{
   color:#9ad906;
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     font-size: 55px;
    }
 
@@ -207,7 +210,7 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
     padding-top: 19vmin;
 }
  .cover .content >h1{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     font-size: 6vmin;
     color: #e5e5e5
  }
@@ -239,7 +242,7 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
   margin-top: -15vmin;  
  }
  .numbers .rect h1{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     color: black;
     font-size:2rem;
  }
@@ -253,7 +256,7 @@ https://media.giphy.com/media/PaIj4pZZeJEdVAJ4yS/giphy.gif
     background:var(--bggradient);
 }
 .purchase >h1{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     padding-top: 15vmin;
     padding-bottom: 0.1em;
     color:#9ad906;
@@ -306,7 +309,7 @@ background: rgba(220, 241, 208, 0.1)
     padding: 2em 00.5em 0;
     color:#9ad906; 
     font-size: 6vmin;
-    font-family: var(--Bangers);
+    font-family: var(--Arsenal);
 }
 
 .section-3 .col-md-12>p{
@@ -327,7 +330,7 @@ background: rgba(220, 241, 208, 0.1)
 
 .desktop h3{
     font-size:3vmin;
-    font-family:var(--Bangers)
+    font-family:var(--Arsenal)
 }
 
 .desktop p{
@@ -363,20 +366,20 @@ background: rgba(220, 241, 208, 0.1)
 }
 
 .section-4 h3{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     color:#1e2a01;
     font-size:20px;
 }
 
 
 .section-4 p{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     color:#f7f8f5;
     font-size:12px;
 }
 
 .section-4 .container >h1{
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     color:#9ad906;
     font: 50px;
 }
@@ -385,7 +388,7 @@ footer {background: var(--bggradient);
     background:url('https://media.giphy.com/media/PCybIpOaZUZOpDGcAT/giphy-downsized-large.gif');
 }
 
-footer h2 {font-family:var(--Bangers);
+footer h2 {font-family:var(--Arsenal);
 color:#9ad906;
 font-size: 50px;
 }
@@ -394,7 +397,7 @@ footer p{font-family: var(--Teko);
     color:#070707;
 }
 
-footer h4{font-family:var(--Bangers);
+footer h4{font-family:var(--Arsenal);
 color:#9ad906;
 font-size:50px;
 }
@@ -403,7 +406,7 @@ footer .input-group{color:#678803;}
 
 
 /*Product*/
-header .ProductH5 h5{font-family:var(--Bangers);
+header .ProductH5 h5{font-family:var(--Arsenal);
 color:#b8d900;
 margin-top:2cm;
 padding: 0;
@@ -445,7 +448,7 @@ margin-left: 6vmin;
 .section-1Place {background:var(--bggradient);
     height:80vmin;
 }
-.section-1Place h1{font-family:var(--Bangers);
+.section-1Place h1{font-family:var(--Arsenal);
     font-size:60px;
     color:#b8d900;
 }
@@ -537,7 +540,7 @@ box-shadow: #ffffff;}
 
 .section-1Response h2{font-size:40px;
     color:#ffffff;
-    font-family:var(--Bangers);
+    font-family:var(--Arsenal);
     margin-left: 10vmin;text-shadow:1px 1px 2px #fa7d00;
     }
     
