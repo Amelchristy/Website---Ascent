@@ -58,9 +58,9 @@ background:#002600;
     display: inline-block;
     }
 
-.dropdown a{color:#f1f3ed;}
+.dropdown a{color:#e5ecf0;}
 .dropdown-content a:hover{
-    background:rgb(243, 247, 240)
+    background:rgb(0, 37, 70)
 }
 
 .dropdown:hover .dropdown-content{
@@ -386,20 +386,21 @@ font: 50px;
 
 footer {background: var(--bggradient);
 background:url('https://s.yimg.com/ny/api/res/1.2/GWCkuNOIz2oywul9p7TOUA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/kiplinger.com/09520e740c744ef999059b65caa83a89');
-;
-opacity:50;}
+background-repeat: no-repeat;
+background-image opacity: 0.5;
+background-size:cover;}
 
 footer h2 {font-family:var(--Arsenal);
-color:#9ad906;
+color:l9ad906;
 font-size: 50px;
 }
 
 footer p{font-family: var(--Teko);
-color:#070707;
+color:#f5f6f8;
 }
 
 footer h4{font-family:var(--Arsenal);
-color:#9ad906;
+color:#eeeff1;
 font-size:50px;
 }
 
