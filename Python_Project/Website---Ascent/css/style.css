@@ -20,7 +20,7 @@ section{
     --gray:#d6d6d6b4;
     --bggradient: linear-gradient(
         to bottom,
-        #fefefe, #021927);
+        #fefefe, #00394f);
     --bggradients: linear-gradient(to bottom,#ebedeedb, #2a3500);
     --light-gray: #BBBBBB);
 }
@@ -166,7 +166,7 @@ font-family:var(--Arsenal);
 }
 
 .section-1 h1{
-color:#9ad906;
+color:#00394f;
 font-family:var(--Arsenal);
 font-size: 55px;
 }
@@ -182,7 +182,7 @@ padding-top: 35px;
 position: absolute;
 top: 2vmin;
 left: -15vmin;
-background: var(--bggradient);
+background: var(#00394f);
 border-radius: 10px;
 text-align: left;
 padding: 13vmin 5vmin 20vmin 10vmin;
@@ -302,12 +302,12 @@ background: rgba(220, 241, 208, 0.1)
 .section-3{
 height:70vmin;
 margin-top:15 vmin;
-background:var(--bggradient);
+background:whitesmoke;
 }
 
 .section-3 .col-md-12>h1{
 padding: 2em 00.5em 0;
-color:#9ad906; 
+color:#00394f; 
 font-size: 6vmin;
 font-family: var(--Arsenal);
 }
@@ -315,7 +315,7 @@ font-family: var(--Arsenal);
 .section-3 .col-md-12>p{
 padding:0.4em ;
 padding-bottom:2em;
-color:whitesmoke;
+color: black;
 font-size: 3vmin;
 font-family:var(--Teko);
 }
@@ -374,13 +374,13 @@ font-size:20px;
 
 .section-4 p{
 font-family:var(--Arsenal);
-color:#f7f8f5;
+color:#000000;
 font-size:12px;
 }
 
 .section-4 .container >h1{
 font-family:var(--Arsenal);
-color:#9ad906;
+color:#003541;
 font: 50px;
 }
 
@@ -427,7 +427,7 @@ header .ProductH5{background:black;}
 }
 
 .section-1Product h1{font-size:50px;
-color:#b8d900;
+color:#002f4e;
 padding:10px;
 font-family:var(--Bangers);
 margin-left: 6vmin;
@@ -452,7 +452,7 @@ height:80vmin;
 }
 .section-1Place h1{font-family:var(--Arsenal);
 font-size:60px;
-color:#b8d900;
+color:#00325b;
 }
 
 .section-1Place .row {
@@ -563,7 +563,7 @@ height:150px;
 
 
 .member-image {
-    height: 400px; 
-    width: 400px;/* Adjust the height as desired */
+    height: 500px; 
+    width: 450px;/* Adjust the height as desired */
     object-fit: relative; /* Ensures the image fits within the fixed height */
 }
