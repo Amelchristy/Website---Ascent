@@ -221,7 +221,7 @@ font-size:2vmin;
 color:#e5e5e5;
 }
 
-.numbers{background-color: #000000;}
+.numbers{background-color: #00394f;}
 
 .numbers .rect{
 position: relative;
@@ -235,7 +235,7 @@ padding-right: 1vmin;
 padding-bottom: 2vmin;
 margin: 1rem;
 border-radius: .5em;
-box-shadow: 1px 2px 50px 0px rgb(51, 114, 172);
+box-shadow: 1px 2px 50px 0px rgb(234, 236, 238);
 }
 
 .numbers{
@@ -356,7 +356,11 @@ height: 825px;
 padding: 0.5cm;
 margin-top:6cm;
 }
-
+.section-3{ padding: 10px; /* adjust this as necessary */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertically align in the center */}
+    
 .section-1Campaign {background:var(--bggradient)}
 
 .section-4 .container {
@@ -387,7 +391,7 @@ font-size:12px;
 .section-4 .container >h1{
 font-family:var(--Arsenal);
 color:#003541;
-font: 50px;
+font-size: 6vmin;
 }
 
 footer {background: var(--bggradient);
