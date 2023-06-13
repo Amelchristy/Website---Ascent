@@ -360,7 +360,7 @@ margin-top:6cm;
     display: flex;
     flex-direction: column;
     justify-content: center; /* vertically align in the center */}
-    
+
 .section-1Campaign {background:var(--bggradient)}
 
 .section-4 .container {
@@ -373,6 +373,7 @@ margin-top:6cm;
     height:110vmin;
     margin-top:15 vmin;
     background:var(--bggradient);
+    overflow: visible;
 }
 
 .section-4 h3{
