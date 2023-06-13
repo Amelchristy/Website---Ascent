@@ -359,10 +359,16 @@ margin-top:6cm;
 
 .section-1Campaign {background:var(--bggradient)}
 
-.section-4{
-height:110vmin;
-margin-top:15 vmin;
-background:var(--bggradient);
+.section-4 .container {
+    padding: 10px; /* adjust this as necessary */
+}
+.section-4{ padding: 20px; /* adjust this as necessary */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertically align in the center */
+    height:110vmin;
+    margin-top:15 vmin;
+    background:var(--bggradient);
 }
 
 .section-4 h3{
@@ -563,7 +569,7 @@ height:150px;
 
 
 .member-image {
-    height: 500px; 
+    height: 470px; 
     width: 450px;/* Adjust the height as desired */
     object-fit: relative; /* Ensures the image fits within the fixed height */
 }

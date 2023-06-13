@@ -1,10 +1,17 @@
-from flask import Flask, render_template
+@app.route('/subscribe', methods=['POST'])
+def subscribe():
+    try:
+        email = request.form.get('email')
 
-app = Flask(__name__)
+        # read existing emails
+        df = pd.read_excel('emails.xlsx')
 
-@app.route('/plot_route')
-def plot_route():
-    return render_template('plot.html')
+        # append new email
+        df = df.append({'email': email}, ignore_index=True)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+        # save to excel
+        df.to_excel('emails.xlsx', index=False)
+
+        return "Subscription successful", 200
+    except Exception as e:
+        return str(e), 500
