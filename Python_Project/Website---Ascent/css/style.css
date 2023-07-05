@@ -24,7 +24,7 @@ section{
     --bggradient: linear-gradient(
         to bottom,
         #fefefe, #00394f);
-    --bggradients: linear-gradient(to bottom,#ebedeedb, #2a3500);
+    --bggradientreverse: linear-gradient(to bottom,#00394f, #000000);
     --light-gray: #BBBBBB);
 }
 header a{
@@ -398,8 +398,7 @@ color:#003541;
 font-size: 6vmin;
 }
 
-footer {background: var(--bggradient);
-background:url('https://s.yimg.com/ny/api/res/1.2/GWCkuNOIz2oywul9p7TOUA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/kiplinger.com/09520e740c744ef999059b65caa83a89');
+footer {background: var(--bggradientreverse);
 background-repeat: no-repeat;
 background-image opacity: 0.5;
 background-size:cover;}
@@ -567,6 +566,7 @@ height:80vmin;}
 
 .card-img .card-img-top{
 height:150px;
+    object-fit: fill;
 }
 
 
@@ -581,3 +581,12 @@ height:150px;
     width: 450px;/* Adjust the height as desired */
     object-fit: relative; /* Ensures the image fits within the fixed height */
 }
+
+.card-body {
+    min-height: 150px;
+}
+
+.email-input {
+    max-width: 1000px;
+}
+
