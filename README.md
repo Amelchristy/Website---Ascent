@@ -1,2 +1,2 @@
-# Multi-Factor Investing - Mountaintop Sponsored Project
+# Multi-Factor Investing - Hamilton Lane Sponsored Project
 https://amelchristy.github.io/Website---Ascent/src/Index.html
